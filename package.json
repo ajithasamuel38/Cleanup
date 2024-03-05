@@ -1,0 +1,16 @@
+{
+  "name": "clean-up",
+  "version": "1.0.0",
+  "description": "Complete Node.js course",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon main.js",
+    "start-server": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
