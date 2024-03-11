@@ -9,7 +9,7 @@ app.use((req, res, next)=>{
     next();
 })
 app.use((req, res, next)=>{
-    console.log('In the another middleware');
+    console.log('In another middleware');
     res.send('{ key1: value }');
 })
 
